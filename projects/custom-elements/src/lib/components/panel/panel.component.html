@@ -1,0 +1,9 @@
+<h1 class="title" [title]="myTitle" (click)="toggleContent()">{{ myTitle }}</h1>
+<div class="content" *ngIf="!isCollapsed">
+  <!--
+  NB: "ng-content" doesn't work if this component is used as a web component.
+  "slot" has to be used instead
+  -->
+  <!--  <ng-content></ng-content>-->
+  <slot></slot>
+</div>

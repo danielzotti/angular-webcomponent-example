@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.title {
+  color: green !important;
+}
+
+my-panel, lib-panel {
+  display: inline-block;
+  width: 300px;
+  margin:10px;
+  vertical-align: top;
+}

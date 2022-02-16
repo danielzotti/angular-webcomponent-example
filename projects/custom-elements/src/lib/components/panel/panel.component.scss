@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  position: relative;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #EEE;
+}
+
+.title {
+  color: red;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  margin:0;
+}
+
+.content {
+  min-height: 50px;
+  margin-top:10px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
