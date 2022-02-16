@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>CustomElementsExample</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>.title{color:green!important}my-panel{display:inline-block;width:300px;margin:10px;vertical-align:top}</style><link rel="stylesheet" href="styles.0692275da8c2e086.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.0692275da8c2e086.css"></noscript></head>
+<body>
+
+<!-- Here below the custom element "my-panel" is used in generic web app -->
+<h1 class="title">Generic web app</h1>
+
+<my-panel my-title="My custom title">
+  <div>My custom <strong>content</strong></div>
+</my-panel>
+
+<my-panel my-title="Another title with no content"></my-panel>
+
+<my-panel></my-panel>
+
+<hr>
+
+<!-- Here below the custom element is used in an Angular app -->
+<dz-root></dz-root>
+
+<!--
+NB: main.js, polyfill.js and runtime.js are required to work with custom components created by Angular!
+In this case, ng build provides to add these scripts but if you use it somewhere else, you need to do it manually:
+<script src="runtime.js"></script>
+<script src="polyfills.js"></script>
+<script src="main.js"></script>
+-->
+
+<script src="runtime.7c4ac1f32d2cb410.js" type="module"></script><script src="polyfills.ec5882edfe553504.js" type="module"></script><script src="main.464a370743851c8e.js" type="module"></script>
+
+</body></html>
